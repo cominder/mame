@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/mame_logo.png"  height=200>
+  <img src="figures/logo_mame.png"  height=250>
 </p>
 
 # MaMe & MaRe: Matrix-Based Token Merging and Restoration for Efficient Visual Perception and Synthesis
