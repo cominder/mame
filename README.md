@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/figures/logo_mame.png"  height=200>
+  <img src="figures/mame_logo.png"  height=200>
 </p>
 
 # MaMe & MaRe: Matrix-Based Token Merging and Restoration
@@ -50,15 +50,15 @@ MaMe is applied to the first 8 layers of pre-trained ViT models without any fine
 
 The figure below shows the token progression through the first 8 blocks of AugReg ViT-B/16 with MaMe. Each colour square represents a distinct token.
 
-![Token merging progression on a bird standing on the wood (single-target scene)](figures/bird.png)
+![Token merging progression on a bird standing on the wood (single-target scene)](figures/bird.jpg)
 ![Token merging progression on a flock of chickens (multi-target scene)](figures/chicken.png)
-![Token merging progression on a slender spider (tiny slender scene)](figures/spider.png)
+![Token merging progression on a slender spider (tiny slender scene)](figures/spider.jpg)
 
 ---
 
 ## COCO Caption (LLaVA-1.5-7B)
 
-MaMe is applied to the **visual encoder** of [LLaVA-1.5-7B](https://llava-vl.github.io/), reducing the number of visual tokens fed into the language model.  Evaluated with [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) on COCO Caption.
+MaMe is applied to the **visual encoder** of [LLaVA-1.5-7B](https://llava-vl.github.io/), reducing the number of visual tokens fed into the language model. Evaluated with [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) on COCO Caption.
 
 | Method | Latency (s) | Bleu-1 | Bleu-2 | Bleu-3 | Bleu-4 | ROUGE\_L | **CIDEr** |
 |---|---|---|---|---|---|---|---|
@@ -70,7 +70,7 @@ MaMe achieves a **CIDEr score of 2.71** — a **3.8× improvement** over the bas
 
 ### Qualitative Example
 
-![COCO Caption evaluation image — plate with fish and broccoli](figures/2834.png)
+![COCO Caption evaluation image — plate with fish and broccoli](figures/2834.PNG)
 
 ---
 
@@ -99,7 +99,7 @@ Moreover, We can control the clarity and sharpness of the generated image by adj
 
 ## Acknowledgements
 
-This codebase borrow some code from [ToMe](https://github.com/facebookresearch/tome) and [ToMe-SD](https://github.com/dbolya/tomesd). Thanks to the authors for their excellent work.
+This codebase borrows some code from [ToMe](https://github.com/facebookresearch/tome) and [ToMe-SD](https://github.com/dbolya/tomesd). Thanks to the authors for their excellent work.
 
 ---
 
