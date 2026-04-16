@@ -2,7 +2,7 @@
   <img src="figures/logo_mame.png"  height=250>
 </p>
 
-# MaMe & MaRe: Matrix-Based Token Merging and Restoration for Efficient Visual Perception and Synthesis
+# MaMe & MaRe: Matrix-Based Token Merging and Restoration for Efficient Visual Perception and Synthesis  <a href="[https://arxiv.org/abs/2604.13432](https://arxiv.org/abs/2604.13432)"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Iwin&color=red&logo=arxiv">
 
 **MaMe** (**Ma**trix-based token **Me**rging) is a training-free, parameter-free token compression method for Vision Transformers. **MaRe** (**Ma**trix-based token **Re**storation) is MaMe's inverse operation to form a MaMe + MaRe pipeline for generation tasks. All operations are expressed as dense matrix multiplications and element-wise ops, making the pipeline fully differentiable and GPU-friendly without any discrete sorting, top-k selection, or clustering.
 
